@@ -8,6 +8,22 @@ function computerPlay() {
 
 const computerSelection = computerPlay().toLowerCase;
 
+let playerSelection = prompt("What is your weapon of choice?").toLowerCase();
+
+    switch(playerSelection) {
+      case "rock":
+        console.log("You choose a solid mass of minerals. Good luck!");
+        break;
+      case "paper":
+        console.log("You choose lignocellulosic fibrous material prepared by chemically or mechanically separating cellulose fibers from wood. Good luck!");
+        break;
+      case "scissors":
+        console.log("You choose a cutting instrument consisting of two blades. Good luck!");
+        break;
+        default:
+          console.log("Our apologies, we do not accept answers such as this. If you wish to play, please pick either Rock, Paper, or Scissors.");
+};
+
 function playRound(playerSelection, computerSelection) {
     var answer = "";
     switch(answer) {
@@ -30,6 +46,6 @@ function playRound(playerSelection, computerSelection) {
     return answer;
   }
 
-const playerSelection = "rock";
+
 console.log(playRound(playerSelection, computerSelection));
 
