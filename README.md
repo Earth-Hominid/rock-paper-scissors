@@ -3,3 +3,4 @@
 
 (https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors).
 
+The classic game recreated in Javascript and HTML.
