@@ -1,5 +1,6 @@
 
 
+// Obtain random selection from computer:
 function computerPlay() {
       const answer = ['rock', 'paper', 'scissors'];
       const computerSelection = answer[Math.floor(Math.random() * answer.length)];
@@ -9,6 +10,7 @@ function computerPlay() {
 let compScore = 0;
 let playerScore = 0;
 
+// Play round and obatain the match result:
 function playRound(playerSelection, computerSelection) {
       if (computerSelection === playerSelection) {
          return result = "It's a tie!"
@@ -33,6 +35,7 @@ function playRound(playerSelection, computerSelection) {
       }
 };
 
+// obtain player choice and play best-of-5 game
 function game () {
       for (let i = 0; i < 5; i++) {
             let playerSelection = prompt("What is your weapon of choice?").toLowerCase();
