@@ -81,6 +81,7 @@ li {
 }
 
 .button {
+  cursor: pointer;
   border: 0px;
   padding: 16px 32px;
   font-family: Montserrat,sans-serif;
@@ -118,16 +119,28 @@ a:active {
   color: purple;
 }
 
-.score {
-  max-width: 300px;
+.choice {
+  max-width: 150px;
+  height: auto;
   margin: 15px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   font-family: "Montserrat", serif;
   justify-content: center;
-  }
+  border: 0px;
+  padding: 30px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 200px;
+  background-color: #4c82de;
+  border-radius: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 .score-area {
   width: 1200px;
@@ -136,21 +149,6 @@ a:active {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
-}
-
-.score {
-  border: 0px;
-  padding: 75px 50px;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 24px;
-  text-transform: uppercase;
-  width: 200px;
-  background-color: #4c82de;
-  border-radius: 25px;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
 }
   
 .scoreboard{
