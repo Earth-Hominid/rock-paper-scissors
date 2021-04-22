@@ -132,11 +132,34 @@ a:active {
   padding: 30px 30px;
   font-size: 18px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 26px;
   text-transform: uppercase;
   width: 200px;
   background-color: #4c82de;
-  border-radius: 60px;
+  border-radius: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.score {
+  max-width: 300px;
+  height: auto;
+  margin: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", serif;
+  justify-content: center;
+  border: 0px;
+  padding: 30px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: uppercase;
+  width: auto;
+  background-color: #4c82de;
+  border-radius: 90px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
