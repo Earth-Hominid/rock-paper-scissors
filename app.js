@@ -59,16 +59,3 @@ function playRound() {
   }
 } 
 
-// obtain player choice and play best-of-5 game
-function game () {
-  for (let i = 0; i < 5; i++) {
-        return(playRound(playerSelection, computerSelection))
-  }
-  if (playerScore > compScore) {
-              console.log("You win!");
-        } else {
-              console.log("You have lost!");
-        }
-};
-
-game();
